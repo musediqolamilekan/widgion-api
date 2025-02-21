@@ -1,6 +1,6 @@
 {
   "name": "widgion-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple API for embedding and controlling Widgion widgets",
   "main": "index.js",
   "repository": "https://github.com/widgion/widgion-api",
