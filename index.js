@@ -12,7 +12,7 @@ const WidgionAPI = (() => {
         if (isLoaded) return;
 
         const script = document.createElement("script");
-        script.src = `https://5077-197-211-63-171.ngrok-free.app/chat/widget/${widgetKey}.js`; // Fetches settings
+        script.src = `https://85be-197-211-63-171.ngrok-free.app/chat/widget/${widgetKey}.js`; // Fetches settings
         script.async = true;
         script.charset = "UTF-8";
         script.setAttribute("crossorigin", "*");
@@ -29,7 +29,7 @@ const WidgionAPI = (() => {
      * Fetch widget settings from the API
      */
     function fetchWidgetSettings(widgetKey, callback) {
-        fetch(`https://5077-197-211-63-171.ngrok-free.app/chat/widget/${widgetKey}`)
+        fetch(`https://85be-197-211-63-171.ngrok-free.app/chat/widget/${widgetKey}`)
             .then(response => response.json())
             .then(data => {
                 widgetSettings = data;
@@ -108,7 +108,7 @@ const WidgionAPI = (() => {
         if (chatIframe) return;
 
         chatIframe = document.createElement("iframe");
-        chatIframe.src = `https://5077-197-211-63-171.ngrok-free.app/load/chat/${widgetKey}`;
+        chatIframe.src = `https://85be-197-211-63-171.ngrok-free.app/load/chat/${widgetKey}`;
         chatIframe.style.position = "fixed";
         chatIframe.style.zIndex = "1000002";
         chatIframe.style.border = "none";
