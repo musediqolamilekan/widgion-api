@@ -1,12 +1,12 @@
 {
   "name": "widgion-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple API for embedding and controlling Widgion widgets",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": "https://github.com/widgion/widgion-api",
+  "author": "Widgion",
+  "license": "MIT",
+  "keywords": ["widget", "embed", "api", "iframe"],
+  "files": ["index.js"]
 }
+  
